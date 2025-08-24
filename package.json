@@ -1,0 +1,24 @@
+{
+  "name": "scrum-standup-bot-local",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+  "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "botbuilder": "^4.22.4",
+    "botbuilder-dialogs": "^4.22.4",
+    "dotenv": "^16.4.5",
+    "openai": "^5.13.1",
+    "restify": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/restify": "^8.5.12",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.15.7",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,40 @@
+http://localhost:3978/api/messages
+/as Bob bob-1
+/as Alice alice-1
+
+
+
+Hier : « J’ai terminé la page checkout et corrigé un bug CSS. »
+
+Aujourd’hui : « Je vais commencer l’intégration Stripe. »
+
+Blocker : « Aucun pour le moment. »
+
+Notes : « Je pourrai aider Maria sur les tests iOS si besoin. »
+
+----------------------------------
+
+Hier : « J’ai finalisé l’API d’authentification et écrit les tests unitaires. »
+
+Aujourd’hui : « Je commence la documentation de l’API et la revue de code. »
+
+Blocker : « Aucun. »
+
+Notes : « Disponible pour aider sur la partie frontend. »
+
+-------------------------------------
+Hier : « J’ai corrigé les erreurs sur la page checkout et optimisé les requêtes SQL. »
+
+Aujourd’hui : « Je travaille sur l’intégration Stripe. »
+
+Blocker : « Toujours pas accès au serveur de staging. »
+
+Notes : « Je vais tester le module de paiement en sandbox. »
+---------------------------------------
+Hier : « J’ai avancé sur les tests iOS et corrigé un crash lié à la caméra. »
+
+Aujourd’hui : « Je continue les tests iOS et prépare le déploiement TestFlight. »
+
+Blocker : « Attente d’un retour de l’équipe backend pour une API. »
+
+Notes : « Je pourrai aider sur les tests Android demain. »
