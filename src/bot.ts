@@ -115,7 +115,7 @@ export class StandupBot extends TeamsActivityHandler {
         conversations.set(userId, { index: 0, answers: {} });
 
         await context.sendActivity(
-          `Bon matin ${name} 👋, commençons ton Stand-up.\nJe vais te poser quelques questions rapides.`
+          `Bonjour ${name} 👋, commençons ton Stand-up.\nJe vais te poser quelques questions rapides.`
         );
         await context.sendActivity(QUESTIONS[0]);
         return;
