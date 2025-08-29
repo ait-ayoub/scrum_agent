@@ -28,11 +28,12 @@ function resolveIdentity(context: TurnContext): { userId: string; name: string }
 
 // Ordered questions for the guided stand-up
 const QUESTIONS = [
-  "Qu’as-tu fait hier ?",
-  "Que vas-tu faire aujourd’hui ?",
-  "As-tu des blocages en ce moment ?",
+  "Quels progrès as-tu réalisés depuis le dernier stand-up ?",
+  "Quels sont tes objectifs avant le prochain stand-up ?",
+  "As-tu des blocages actuellement ?",
   "As-tu besoin d’une réunion de clarification ou d’aide de l’équipe ?"
 ];
+
 
 // Per-user conversation progress (in-memory)
 type Conversation = {

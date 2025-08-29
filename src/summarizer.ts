@@ -155,8 +155,8 @@ export async function summarizeStandupFr(rawDigest: string): Promise<string> {
   const out: string[] = [];
   out.push("## 📋 Stand-up — " + (new Date().toISOString().slice(0,10)));
   out.push("", "### ⚠️ Blockers",   ...blkL.map(s => s.startsWith("-") ? s : `- ${s}`));
-  out.push("", "### ✅ Aujourd’hui", ...todL.map(s => s.startsWith("-") ? s : `- ${s}`));
-  out.push("", "### 🕗 Hier",        ...ystL.map(s => s.startsWith("-") ? s : `- ${s}`));
+  out.push("", "### 🎯 Objectifs", ...todL.map(s => s.startsWith("-") ? s : `- ${s}`));
+  out.push("", "### 📈 Progression", ...ystL.map(s => s.startsWith("-") ? s : `- ${s}`));
   out.push("", "### 📝 Notes",       ...ntsL.map(s => s.startsWith("-") ? s : `- ${s}`));
   // append footer warnings from the raw digest
   if (footerWarnings.length) {
